@@ -1,0 +1,44 @@
+html {
+     font-size: 16px; /*Set default*/
+     /*min-height:100%;*/ /* make sure it is at least as tall as the viewport */
+     margin:0; /*sticky footer space*/
+     position:relative;
+}
+
+body {
+     font-size: 62.5%; /* 1em = 10px / 16px*/ 
+     /*height: 100%;*/ /* force the BODY element to match the height of the HTML element */
+}
+
+.main {
+position:absolute;
+    margin:0 0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+     background: url('../assets/FullSizeRender.jpg') no-repeat right / contain,
+                 url('../assets/IMG_1195s.jpg') no-repeat left / cover;
+                 
+   
+   /*-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+ */
+}
+
+.wrapper {
+  max-width: 40%;
+  margin-top: 20%;
+    margin-left:3%;
+  /*padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;*/
+}
+
+video {
+    width:100%;
+}
